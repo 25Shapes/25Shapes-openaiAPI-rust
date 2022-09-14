@@ -1,4 +1,4 @@
 [package]
 name = "openai_api"
 version = "0.1.0"
-ed
+edition = "20
