@@ -10,4 +10,4 @@ serde_derive = "*"
 http = "*"
 serde = "*"
 serde_json= "*"
-re
+reqwest = {versio
