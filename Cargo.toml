@@ -9,4 +9,5 @@ edition = "2021"
 serde_derive = "*"
 http = "*"
 serde = "*"
-s
+serde_json= "*"
+re
