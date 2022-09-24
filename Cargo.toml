@@ -10,4 +10,4 @@ serde_derive = "*"
 http = "*"
 serde = "*"
 serde_json= "*"
-reqwest = {version="*", features=["blocking", "multipart
+reqwest = {version="*", features=["blocking", "multipart"]}
