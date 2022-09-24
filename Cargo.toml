@@ -10,4 +10,4 @@ serde_derive = "*"
 http = "*"
 serde = "*"
 serde_json= "*"
-reqwest = {version="*", features=[
+reqwest = {version="*", features=["blocking", "m
