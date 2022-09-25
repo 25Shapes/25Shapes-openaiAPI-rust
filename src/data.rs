@@ -44,3 +44,16 @@ pub struct Message {
     pub role: String,
     pub content: String,
 }
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct CompletionRequest {
+    pub model: String,
+    pub messages: Vec<Message>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Usage {
+    #[serde(rename = "prompt_tokens")]
+    pub prompt_tokens: i64,
