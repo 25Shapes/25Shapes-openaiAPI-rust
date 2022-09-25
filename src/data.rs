@@ -34,3 +34,13 @@ pub struct CompletionResponse {
 pub struct Choice {
     pub index: i64,
     #[serde(rename = "finish_reason")]
+    pub finish_reason: String,
+    pub message: Message,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Message {
+    pub role: String,
+    pub content: String,
+}
