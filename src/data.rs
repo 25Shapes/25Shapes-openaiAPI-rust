@@ -14,3 +14,10 @@ impl Model {
         match self {
             Model::GptTurbo => "gpt-3.5-turbo",
             Model::GptTurbo0301 => "gpt-3.5-turbo-0301",
+        }
+    }
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct CompletionResponse {
