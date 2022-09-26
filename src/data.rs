@@ -64,3 +64,7 @@ pub struct Usage {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct TranscriptionResponse {
+    pub text: String,
+}
