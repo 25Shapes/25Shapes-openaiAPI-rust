@@ -57,3 +57,10 @@ pub struct CompletionRequest {
 pub struct Usage {
     #[serde(rename = "prompt_tokens")]
     pub prompt_tokens: i64,
+    #[serde(rename = "completion_tokens")]
+    pub completion_tokens: i64,
+    #[serde(rename = "total_tokens")]
+    pub total_tokens: i64,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
