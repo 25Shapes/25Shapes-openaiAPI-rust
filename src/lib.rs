@@ -1,4 +1,4 @@
 mod data;
 use std::io::{Error, ErrorKind};
 
-u
+use data::Comp
