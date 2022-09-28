@@ -1,4 +1,6 @@
 mod data;
 use std::io::{Error, ErrorKind};
 
-use data::CompletionReque
+use data::CompletionRequest;
+
+pub as
