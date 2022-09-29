@@ -3,4 +3,4 @@ use std::io::{Error, ErrorKind};
 
 use data::CompletionRequest;
 
-pub async fn asyn
+pub async fn async_comple
