@@ -5,4 +5,4 @@ use data::CompletionRequest;
 
 pub async fn async_completions(
     key: String,
-    model: data::
+    model: data::Model,
