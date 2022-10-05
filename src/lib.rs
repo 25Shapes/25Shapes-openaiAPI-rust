@@ -6,4 +6,4 @@ use data::CompletionRequest;
 pub async fn async_completions(
     key: String,
     model: data::Model,
-    messages: Ve
+    messages: Vec<data::Me
