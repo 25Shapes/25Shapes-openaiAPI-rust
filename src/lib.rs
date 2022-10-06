@@ -8,4 +8,4 @@ pub async fn async_completions(
     model: data::Model,
     messages: Vec<data::Message>,
 ) -> Result<data::CompletionResponse, Error> {
-    let model_na
+    let model_name = model.as_st
