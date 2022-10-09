@@ -9,4 +9,5 @@ pub async fn async_completions(
     messages: Vec<data::Message>,
 ) -> Result<data::CompletionResponse, Error> {
     let model_name = model.as_str().to_string();
-    let request_body = CompletionRequest 
+    let request_body = CompletionRequest {
+        m
