@@ -12,4 +12,5 @@ pub async fn async_completions(
     let request_body = CompletionRequest {
         model: model_name,
         messages,
- 
+    };
+  
