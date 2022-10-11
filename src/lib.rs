@@ -13,4 +13,4 @@ pub async fn async_completions(
         model: model_name,
         messages,
     };
-  
+    let request_b
