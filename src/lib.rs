@@ -13,4 +13,5 @@ pub async fn async_completions(
         model: model_name,
         messages,
     };
-    let request_body_json = serde_json::json!(request_body).to_owned().to_string(
+    let request_body_json = serde_json::json!(request_body).to_owned().to_string();
+    let clien
