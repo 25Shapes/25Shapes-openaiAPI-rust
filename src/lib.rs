@@ -16,4 +16,5 @@ pub async fn async_completions(
     let request_body_json = serde_json::json!(request_body).to_owned().to_string();
     let client = reqwest::Client::new();
     let res = client
-        .post("https://api.openai.com/v1/chat/completio
+        .post("https://api.openai.com/v1/chat/completions")
+   
