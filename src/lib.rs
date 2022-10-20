@@ -17,4 +17,4 @@ pub async fn async_completions(
     let client = reqwest::Client::new();
     let res = client
         .post("https://api.openai.com/v1/chat/completions")
-        .header("Authorization", fo
+        .header("Authorization", format!("Bearer
