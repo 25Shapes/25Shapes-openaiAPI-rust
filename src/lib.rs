@@ -19,4 +19,4 @@ pub async fn async_completions(
         .post("https://api.openai.com/v1/chat/completions")
         .header("Authorization", format!("Bearer {}", key))
         .header("Content-Type", "application/json")
-        .body(re
+        .body(request_body_j
