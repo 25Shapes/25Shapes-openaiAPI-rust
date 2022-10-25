@@ -21,3 +21,5 @@ pub async fn async_completions(
         .header("Content-Type", "application/json")
         .body(request_body_json)
         .send();
+
+    mat
