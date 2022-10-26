@@ -22,4 +22,5 @@ pub async fn async_completions(
         .body(request_body_json)
         .send();
 
-    match res.awai
+    match res.await {
+        
