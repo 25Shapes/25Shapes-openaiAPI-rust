@@ -23,4 +23,4 @@ pub async fn async_completions(
         .send();
 
     match res.await {
-        Ok(r) => match r.text(
+        Ok(r) => match r.text().await 
