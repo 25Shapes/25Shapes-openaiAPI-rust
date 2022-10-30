@@ -25,4 +25,4 @@ pub async fn async_completions(
     match res.await {
         Ok(r) => match r.text().await {
             Ok(body_str) => {
-                
+                println!("
