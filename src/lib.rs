@@ -26,4 +26,4 @@ pub async fn async_completions(
         Ok(r) => match r.text().await {
             Ok(body_str) => {
                 println!("{}", body_str);
-                match serde_json::f
+                match serde_json::from_str(&body_str) 
