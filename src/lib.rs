@@ -27,4 +27,4 @@ pub async fn async_completions(
             Ok(body_str) => {
                 println!("{}", body_str);
                 match serde_json::from_str(&body_str) {
-                    Ok(re
+                    Ok(response) => {
