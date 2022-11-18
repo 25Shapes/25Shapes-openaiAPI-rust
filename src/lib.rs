@@ -33,4 +33,4 @@ pub async fn async_completions(
                     Err(e) => return Err(Error::new(ErrorKind::Other, e.to_string())),
                 };
             }
-            Err(e) => Err(Error::new(ErrorKind::Other, e.to
+            Err(e) => Err(Error::new(ErrorKind::Other, e.to_str
