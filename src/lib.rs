@@ -39,4 +39,4 @@ pub async fn async_completions(
     }
 }
 
-pu
+pub async fn as
