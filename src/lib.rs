@@ -39,4 +39,4 @@ pub async fn async_completions(
     }
 }
 
-pub async fn as
+pub async fn async_transcrib
