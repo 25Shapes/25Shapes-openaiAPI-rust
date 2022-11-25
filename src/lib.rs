@@ -42,4 +42,5 @@ pub async fn async_completions(
 pub async fn async_transcribe(
     key: String,
     file: Vec<u8>,
-    file_name:
+    file_name: String,
+) -> 
