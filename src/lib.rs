@@ -43,4 +43,4 @@ pub async fn async_transcribe(
     key: String,
     file: Vec<u8>,
     file_name: String,
-) -> Result<data::TranscriptionRespon
+) -> Result<data::TranscriptionResponse, Error> {
