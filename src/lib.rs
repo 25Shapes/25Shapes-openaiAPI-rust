@@ -44,4 +44,4 @@ pub async fn async_transcribe(
     file: Vec<u8>,
     file_name: String,
 ) -> Result<data::TranscriptionResponse, Error> {
-    let fil
+    let file_part = r
