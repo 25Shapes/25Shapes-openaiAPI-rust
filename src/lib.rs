@@ -44,4 +44,4 @@ pub async fn async_transcribe(
     file: Vec<u8>,
     file_name: String,
 ) -> Result<data::TranscriptionResponse, Error> {
-    let file_part = reqwest::mul
+    let file_part = reqwest::multipart::Part
