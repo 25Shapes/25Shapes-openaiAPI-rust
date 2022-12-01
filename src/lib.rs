@@ -45,4 +45,4 @@ pub async fn async_transcribe(
     file_name: String,
 ) -> Result<data::TranscriptionResponse, Error> {
     let file_part = reqwest::multipart::Part::bytes(file).file_name(file_name);
-    let client = reqw
+    let client = reqwest::Client::n
