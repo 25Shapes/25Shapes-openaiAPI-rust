@@ -47,4 +47,4 @@ pub async fn async_transcribe(
     let file_part = reqwest::multipart::Part::bytes(file).file_name(file_name);
     let client = reqwest::Client::new();
     let form = reqwest::multipart::Form::new()
-      
+        .part
