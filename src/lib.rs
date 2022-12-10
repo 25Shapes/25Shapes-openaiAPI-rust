@@ -49,4 +49,5 @@ pub async fn async_transcribe(
     let form = reqwest::multipart::Form::new()
         .part("file", file_part)
         .text("model", "whisper-1");
-    let res
+    let res = client
+ 
