@@ -52,4 +52,4 @@ pub async fn async_transcribe(
     let res = client
         .post("https://api.openai.com/v1/audio/transcriptions")
         .multipart(form)
-        .head
+        .header("Author
