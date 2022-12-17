@@ -53,4 +53,5 @@ pub async fn async_transcribe(
         .post("https://api.openai.com/v1/audio/transcriptions")
         .multipart(form)
         .header("Authorization", format!("Bearer {}", key))
-        .header("Content-Type", "multipart/form-data"
+        .header("Content-Type", "multipart/form-data")
+        .se
