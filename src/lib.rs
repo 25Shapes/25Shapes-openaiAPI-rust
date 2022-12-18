@@ -54,4 +54,5 @@ pub async fn async_transcribe(
         .multipart(form)
         .header("Authorization", format!("Bearer {}", key))
         .header("Content-Type", "multipart/form-data")
-        .se
+        .send();
+  
