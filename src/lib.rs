@@ -56,4 +56,5 @@ pub async fn async_transcribe(
         .header("Content-Type", "multipart/form-data")
         .send();
     match res.await {
-        Ok(r) => match r.text().awai
+        Ok(r) => match r.text().await {
+         
