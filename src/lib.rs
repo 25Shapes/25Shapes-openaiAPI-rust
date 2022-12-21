@@ -57,4 +57,4 @@ pub async fn async_transcribe(
         .send();
     match res.await {
         Ok(r) => match r.text().await {
-         
+            Ok(body_str) 
