@@ -58,4 +58,4 @@ pub async fn async_transcribe(
     match res.await {
         Ok(r) => match r.text().await {
             Ok(body_str) => {
-                pr
+                println!("{
