@@ -63,4 +63,4 @@ pub async fn async_transcribe(
                     Ok(response) => {
                         return Ok(response);
                     }
-                    Err(e) => return E
+                    Err(e) => return Err(Err
