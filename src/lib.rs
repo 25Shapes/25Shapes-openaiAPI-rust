@@ -68,4 +68,4 @@ pub async fn async_transcribe(
             }
             Err(e) => Err(Error::new(ErrorKind::Other, e.to_string())),
         },
-        Err(e) => retu
+        Err(e) => return Err(E
