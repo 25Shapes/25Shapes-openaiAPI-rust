@@ -72,4 +72,5 @@ pub async fn async_transcribe(
     }
 }
 
-pub fn completion
+pub fn completions(
+    key: S
