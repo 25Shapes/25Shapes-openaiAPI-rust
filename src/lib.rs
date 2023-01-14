@@ -72,4 +72,4 @@ pub async fn async_transcribe(
     }
 }
 
-pub
+pub fn completion
