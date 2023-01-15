@@ -74,4 +74,4 @@ pub async fn async_transcribe(
 
 pub fn completions(
     key: String,
-    mod
+    model: data::M
