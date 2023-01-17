@@ -75,4 +75,4 @@ pub async fn async_transcribe(
 pub fn completions(
     key: String,
     model: data::Model,
-    messages: Vec<da
+    messages: Vec<data::Message>
