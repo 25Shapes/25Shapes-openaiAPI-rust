@@ -76,4 +76,4 @@ pub fn completions(
     key: String,
     model: data::Model,
     messages: Vec<data::Message>,
-) -> Result<data::CompletionRe
+) -> Result<data::CompletionResponse, E
