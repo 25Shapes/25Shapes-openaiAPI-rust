@@ -77,4 +77,5 @@ pub fn completions(
     model: data::Model,
     messages: Vec<data::Message>,
 ) -> Result<data::CompletionResponse, Error> {
-    let model_name = model.as_str().to_st
+    let model_name = model.as_str().to_string();
+ 
