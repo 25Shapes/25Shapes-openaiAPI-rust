@@ -78,4 +78,4 @@ pub fn completions(
     messages: Vec<data::Message>,
 ) -> Result<data::CompletionResponse, Error> {
     let model_name = model.as_str().to_string();
-    let request_body = Compl
+    let request_body = CompletionRequ
