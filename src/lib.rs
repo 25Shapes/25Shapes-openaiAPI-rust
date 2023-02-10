@@ -80,3 +80,4 @@ pub fn completions(
     let model_name = model.as_str().to_string();
     let request_body = CompletionRequest {
         model: model_name,
+        mes
