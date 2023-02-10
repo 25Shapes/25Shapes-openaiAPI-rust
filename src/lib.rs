@@ -81,4 +81,5 @@ pub fn completions(
     let request_body = CompletionRequest {
         model: model_name,
         messages,
-   
+    };
+    let r
