@@ -82,4 +82,4 @@ pub fn completions(
         model: model_name,
         messages,
     };
-    let request_body_j
+    let request_body_json = serd
