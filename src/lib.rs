@@ -83,3 +83,4 @@ pub fn completions(
         messages,
     };
     let request_body_json = serde_json::json!(request_body).to_owned().to_string();
+    let clie
