@@ -86,4 +86,5 @@ pub fn completions(
     let client = reqwest::blocking::Client::new();
     let res = client
         .post("https://api.openai.com/v1/chat/completions")
-        .header("Authorization", format!("Beare
+        .header("Authorization", format!("Bearer {}", key))
+       
