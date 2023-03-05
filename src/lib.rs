@@ -87,4 +87,5 @@ pub fn completions(
     let res = client
         .post("https://api.openai.com/v1/chat/completions")
         .header("Authorization", format!("Bearer {}", key))
-        .header("Content-Type", "application/
+        .header("Content-Type", "application/json")
+   
