@@ -89,4 +89,4 @@ pub fn completions(
         .header("Authorization", format!("Bearer {}", key))
         .header("Content-Type", "application/json")
         .body(request_body_json)
-      
+        .send();
