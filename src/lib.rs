@@ -90,3 +90,5 @@ pub fn completions(
         .header("Content-Type", "application/json")
         .body(request_body_json)
         .send();
+
+    match res
