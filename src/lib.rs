@@ -92,4 +92,4 @@ pub fn completions(
         .send();
 
     match res {
-        O
+        Ok(r) => m
