@@ -91,4 +91,5 @@ pub fn completions(
         .body(request_body_json)
         .send();
 
-    match res
+    match res {
+        O
