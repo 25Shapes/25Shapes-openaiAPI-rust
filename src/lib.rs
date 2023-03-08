@@ -92,4 +92,5 @@ pub fn completions(
         .send();
 
     match res {
-        Ok(r) => m
+        Ok(r) => match r.text() {
+   
