@@ -93,4 +93,4 @@ pub fn completions(
 
     match res {
         Ok(r) => match r.text() {
-            Ok
+            Ok(b
