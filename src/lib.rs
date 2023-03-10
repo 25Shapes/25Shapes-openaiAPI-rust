@@ -94,4 +94,5 @@ pub fn completions(
     match res {
         Ok(r) => match r.text() {
             Ok(body_str) => {
-                println!("{}", 
+                println!("{}", body_str);
+     
