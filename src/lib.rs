@@ -97,4 +97,4 @@ pub fn completions(
                 println!("{}", body_str);
                 match serde_json::from_str(&body_str) {
                     Ok(response) => {
-                 
+                        return O
