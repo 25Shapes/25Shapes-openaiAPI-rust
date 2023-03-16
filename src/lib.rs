@@ -98,4 +98,5 @@ pub fn completions(
                 match serde_json::from_str(&body_str) {
                     Ok(response) => {
                         return Ok(response);
-                 
+                    }
+       
