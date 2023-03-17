@@ -99,4 +99,4 @@ pub fn completions(
                     Ok(response) => {
                         return Ok(response);
                     }
-                    Err(e) => ret
+                    Err(e) => return Err(E
