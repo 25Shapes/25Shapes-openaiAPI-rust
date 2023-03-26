@@ -105,4 +105,7 @@ pub fn completions(
             Err(e) => Err(Error::new(ErrorKind::Other, e.to_string())),
         },
         Err(e) => return Err(Error::new(ErrorKind::Other, e.to_string())),
-   
+    }
+}
+
+pub fn tra
