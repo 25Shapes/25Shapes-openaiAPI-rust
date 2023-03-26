@@ -108,4 +108,5 @@ pub fn completions(
     }
 }
 
-pub fn tra
+pub fn transcribe(
+    key:
