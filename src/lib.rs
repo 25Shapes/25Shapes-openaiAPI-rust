@@ -109,4 +109,5 @@ pub fn completions(
 }
 
 pub fn transcribe(
-    key:
+    key: String,
+    
