@@ -110,4 +110,4 @@ pub fn completions(
 
 pub fn transcribe(
     key: String,
-    
+    file: V
