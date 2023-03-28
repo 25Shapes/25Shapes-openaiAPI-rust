@@ -111,4 +111,4 @@ pub fn completions(
 pub fn transcribe(
     key: String,
     file: Vec<u8>,
-    file_name
+    file_name: String,
