@@ -112,4 +112,4 @@ pub fn transcribe(
     key: String,
     file: Vec<u8>,
     file_name: String,
-) -> Result<data::Transc
+) -> Result<data::TranscriptionRespon
