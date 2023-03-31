@@ -113,4 +113,4 @@ pub fn transcribe(
     file: Vec<u8>,
     file_name: String,
 ) -> Result<data::TranscriptionResponse, Error> {
-    let file_pa
+    let file_part = reqwest
