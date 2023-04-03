@@ -114,4 +114,4 @@ pub fn transcribe(
     file_name: String,
 ) -> Result<data::TranscriptionResponse, Error> {
     let file_part = reqwest::blocking::multipart::Part::bytes(file).file_name(file_name);
-    le
+    let cl
