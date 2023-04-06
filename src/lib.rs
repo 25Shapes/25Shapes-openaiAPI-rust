@@ -115,4 +115,4 @@ pub fn transcribe(
 ) -> Result<data::TranscriptionResponse, Error> {
     let file_part = reqwest::blocking::multipart::Part::bytes(file).file_name(file_name);
     let client = reqwest::blocking::Client::new();
-    let form = reqwest::blockin
+    let form = reqwest::blocking::multip
