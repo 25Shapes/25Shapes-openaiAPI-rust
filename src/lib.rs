@@ -116,4 +116,4 @@ pub fn transcribe(
     let file_part = reqwest::blocking::multipart::Part::bytes(file).file_name(file_name);
     let client = reqwest::blocking::Client::new();
     let form = reqwest::blocking::multipart::Form::new()
-        .part("fi
+        .part("file", file_part)
