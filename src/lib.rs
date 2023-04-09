@@ -117,4 +117,4 @@ pub fn transcribe(
     let client = reqwest::blocking::Client::new();
     let form = reqwest::blocking::multipart::Form::new()
         .part("file", file_part)
-        .text("model", "whis
+        .text("model", "whisper-1");
