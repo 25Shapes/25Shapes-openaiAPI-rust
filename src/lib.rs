@@ -119,4 +119,4 @@ pub fn transcribe(
         .part("file", file_part)
         .text("model", "whisper-1");
     let res = client
-        .po
+        .post("https
