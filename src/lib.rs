@@ -119,4 +119,4 @@ pub fn transcribe(
         .part("file", file_part)
         .text("model", "whisper-1");
     let res = client
-        .post("https://api.opena
+        .post("https://api.openai.com/v1/
