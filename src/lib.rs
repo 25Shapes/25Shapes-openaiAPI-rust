@@ -120,4 +120,5 @@ pub fn transcribe(
         .text("model", "whisper-1");
     let res = client
         .post("https://api.openai.com/v1/audio/transcriptions")
-        .multipart(fo
+        .multipart(form)
+        .he
