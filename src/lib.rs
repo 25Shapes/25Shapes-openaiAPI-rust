@@ -121,4 +121,5 @@ pub fn transcribe(
     let res = client
         .post("https://api.openai.com/v1/audio/transcriptions")
         .multipart(form)
-        .header("Authorization", format!("Bearer {
+        .header("Authorization", format!("Bearer {}", key))
+    
