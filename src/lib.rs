@@ -122,4 +122,4 @@ pub fn transcribe(
         .post("https://api.openai.com/v1/audio/transcriptions")
         .multipart(form)
         .header("Authorization", format!("Bearer {}", key))
-        .header("Content-Type", "mult
+        .header("Content-Type", "multipart/form-da
