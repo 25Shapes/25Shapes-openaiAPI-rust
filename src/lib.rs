@@ -124,4 +124,4 @@ pub fn transcribe(
         .header("Authorization", format!("Bearer {}", key))
         .header("Content-Type", "multipart/form-data")
         .send();
-  
+    match res {
