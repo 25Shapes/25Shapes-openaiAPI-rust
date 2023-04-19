@@ -125,4 +125,4 @@ pub fn transcribe(
         .header("Content-Type", "multipart/form-data")
         .send();
     match res {
-        Ok(r) => ma
+        Ok(r) => match r.t
