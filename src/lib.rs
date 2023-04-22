@@ -127,4 +127,4 @@ pub fn transcribe(
     match res {
         Ok(r) => match r.text() {
             Ok(body_str) => {
-              
+                println!("
