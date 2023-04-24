@@ -128,4 +128,4 @@ pub fn transcribe(
         Ok(r) => match r.text() {
             Ok(body_str) => {
                 println!("{}", body_str);
-                match serde_json::from_s
+                match serde_json::from_str(&body_str) {
