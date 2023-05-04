@@ -132,4 +132,4 @@ pub fn transcribe(
                     Ok(response) => {
                         return Ok(response);
                     }
-                    Err(e) => retu
+                    Err(e) => return Err(E
