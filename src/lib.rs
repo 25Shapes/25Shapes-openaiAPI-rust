@@ -132,4 +132,4 @@ pub fn transcribe(
                     Ok(response) => {
                         return Ok(response);
                     }
-                    Err(e) => return Err(Error::new(E
+                    Err(e) => return Err(Error::new(ErrorKind::
