@@ -133,4 +133,5 @@ pub fn transcribe(
                         return Ok(response);
                     }
                     Err(e) => return Err(Error::new(ErrorKind::Other, e.to_string())),
-        
+                };
+  
