@@ -136,3 +136,5 @@ pub fn transcribe(
                 };
             }
             Err(e) => Err(Error::new(ErrorKind::Other, e.to_string())),
+        },
+   
