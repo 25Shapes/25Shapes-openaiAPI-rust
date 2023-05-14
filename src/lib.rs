@@ -142,4 +142,5 @@ pub fn transcribe(
 }
 
 #[cfg(test)]
-mo
+mod tests {
+    
