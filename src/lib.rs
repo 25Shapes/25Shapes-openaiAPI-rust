@@ -147,4 +147,4 @@ mod tests {
 
     use crate::data::Message;
 
-    use
+    use super::*;
