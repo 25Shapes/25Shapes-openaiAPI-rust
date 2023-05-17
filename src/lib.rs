@@ -150,4 +150,5 @@ mod tests {
     use super::*;
 
     #[test]
-    fn comple
+    fn completion() {
+    
