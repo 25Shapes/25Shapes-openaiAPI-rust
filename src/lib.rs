@@ -151,4 +151,4 @@ mod tests {
 
     #[test]
     fn completion() {
-        let msg 
+        let msg = Message {
