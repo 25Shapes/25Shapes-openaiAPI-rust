@@ -152,4 +152,5 @@ mod tests {
     #[test]
     fn completion() {
         let msg = Message {
-            role: "user".to_s
+            role: "user".to_string(),
+     
