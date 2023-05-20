@@ -153,4 +153,4 @@ mod tests {
     fn completion() {
         let msg = Message {
             role: "user".to_string(),
-            content:
+            content: "What i
