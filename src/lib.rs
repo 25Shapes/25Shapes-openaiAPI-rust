@@ -153,4 +153,4 @@ mod tests {
     fn completion() {
         let msg = Message {
             role: "user".to_string(),
-            content: "What is the reason people say that 4
+            content: "What is the reason people say that 42 is the secre
