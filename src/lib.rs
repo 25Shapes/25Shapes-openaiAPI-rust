@@ -154,4 +154,4 @@ mod tests {
         let msg = Message {
             role: "user".to_string(),
             content: "What is the reason people say that 42 is the secret to the universe?"
-             
+                .to_str
