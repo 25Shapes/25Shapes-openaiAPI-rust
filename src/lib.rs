@@ -156,4 +156,5 @@ mod tests {
             content: "What is the reason people say that 42 is the secret to the universe?"
                 .to_string(),
         };
-        let k = env::var("OPENAI_KEY").expect("key exi
+        let k = env::var("OPENAI_KEY").expect("key exists");
+   
