@@ -157,4 +157,4 @@ mod tests {
                 .to_string(),
         };
         let k = env::var("OPENAI_KEY").expect("key exists");
-        let result = completions(k
+        let result = completions(k, data::Model:
