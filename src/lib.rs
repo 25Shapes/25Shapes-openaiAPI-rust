@@ -159,4 +159,5 @@ mod tests {
         let k = env::var("OPENAI_KEY").expect("key exists");
         let result = completions(k, data::Model::GptTurbo0301, vec![msg]);
         match result {
-            Ok(c) =
+            Ok(c) => {
+   
