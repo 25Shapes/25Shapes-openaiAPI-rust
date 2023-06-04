@@ -160,4 +160,5 @@ mod tests {
         let result = completions(k, data::Model::GptTurbo0301, vec![msg]);
         match result {
             Ok(c) => {
-                println!("{:?}",
+                println!("{:?}", c);
+         
