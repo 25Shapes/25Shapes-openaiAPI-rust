@@ -164,4 +164,4 @@ mod tests {
                 assert!(true);
             }
             Err(e) => {
-                println!("{
+                println!("{:?}", e)
