@@ -171,4 +171,4 @@ mod tests {
     }
     #[test]
     fn whisper() {
-        let f = fs::read("oprah.m
+        let f = fs::read("oprah.mp3").expect
