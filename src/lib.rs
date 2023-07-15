@@ -172,4 +172,4 @@ mod tests {
     #[test]
     fn whisper() {
         let f = fs::read("oprah.mp3").expect("test file exists");
-        let k = env::var("OPENAI_KEY").expect("key
+        let k = env::var("OPENAI_KEY").expect("key exists");
