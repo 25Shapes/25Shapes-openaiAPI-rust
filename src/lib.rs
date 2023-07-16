@@ -173,4 +173,4 @@ mod tests {
     fn whisper() {
         let f = fs::read("oprah.mp3").expect("test file exists");
         let k = env::var("OPENAI_KEY").expect("key exists");
-        let result = transcribe(k,
+        let result = transcribe(k, f, "oprah
