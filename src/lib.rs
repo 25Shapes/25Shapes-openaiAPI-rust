@@ -174,4 +174,5 @@ mod tests {
         let f = fs::read("oprah.mp3").expect("test file exists");
         let k = env::var("OPENAI_KEY").expect("key exists");
         let result = transcribe(k, f, "oprah.mp3".to_string());
-        match r
+        match result {
+ 
