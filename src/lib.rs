@@ -175,4 +175,5 @@ mod tests {
         let k = env::var("OPENAI_KEY").expect("key exists");
         let result = transcribe(k, f, "oprah.mp3".to_string());
         match result {
-            O
+            Ok(c) => {
+       
