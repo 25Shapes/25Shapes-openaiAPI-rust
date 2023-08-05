@@ -176,4 +176,4 @@ mod tests {
         let result = transcribe(k, f, "oprah.mp3".to_string());
         match result {
             Ok(c) => {
-                pri
+                println!("{:?
