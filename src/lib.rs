@@ -177,4 +177,5 @@ mod tests {
         match result {
             Ok(c) => {
                 println!("{:?}", c);
-                assert!(tr
+                assert!(true);
+         
