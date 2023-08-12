@@ -180,4 +180,4 @@ mod tests {
                 assert!(true);
             }
             Err(e) => {
-                print
+                println!("{:?}", e
