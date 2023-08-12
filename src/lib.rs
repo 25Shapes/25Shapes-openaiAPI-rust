@@ -179,4 +179,4 @@ mod tests {
                 println!("{:?}", c);
                 assert!(true);
             }
-            
+            Err(e)
